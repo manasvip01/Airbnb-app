@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  padding: 0px;
+  margin: 0px;
+    box-shadow: 0px 6px 7px rgb(233, 228, 228);
+}
+
+.airbnb{
+  margin: 20px 20px 15px 40px;
+}
+
+.photogrid{
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.main{
+  line-height: 10px;
+  margin: 30px 0px 0px 10px
+}
+
+.online{
+  font-family: mono;
+  font-size: 50px;
+}
+
+.mainpara{
+  font-family: mono;
+  font-size: 20px;
+  line-height: 3px;
+  word-spacing: 5px;
+  color:rgb(91, 88, 88)
+}
+
+.row{
+  display: flex;
+}
+.photo{
+  flex: 33.3%;
+}
+.photo1{
+  margin: 20px 0px 0px 20px;
+  border-radius: 20px;
+}
+.Star{
+  margin: 2px 0px 3px 20px;
+  width: 25px;
+  height: 25px;
+}
+.star1{
+  display: flex;
+}
+.review{
+  margin: 8px 0px 3px 0px;
+  font-family: mono;
+}
+.country{
+  margin: 9px 0px 3px 0px;
+  font-family: mono;
+  color: grey;
+}
+
+.title{
+  font-family: mono;
+  margin: 0px 0px 10px 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+.cards{
+  position: relative;
+}
+.Soldout{
+  position: absolute;
+  left: 30px;
+  bottom: 395px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px black;
+}
+
+
+
+
